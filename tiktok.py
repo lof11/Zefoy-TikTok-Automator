@@ -215,7 +215,7 @@ class automator:
     def main(self):
         if clear == "cls":
             ctypes.windll.kernel32.SetConsoleTitleW("TikTok AIO | Developed by @useragents on Github")
-        self.driver.get("https://zefoy.com/")
+        self.driver.get("https://homedecoratione.com/")
         time.sleep(2)
         if "502 Bad Gateway" in self.driver.page_source:
             os.system(clear)
